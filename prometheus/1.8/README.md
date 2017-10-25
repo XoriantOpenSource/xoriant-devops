@@ -1,7 +1,5 @@
 # Prometheus 1.8 
-# Prometheus Version: 1.8
-
-# Author: Pankaj Yadav
+ Author: Pankaj Yadav
 
 --------------------------------------------------------------------------------------
 
@@ -13,7 +11,7 @@ For this installation, following files are used:
 
 --------------------------------------------------------------------------------------
 
-#Prerequisites: 
+# Prerequisites: 
 
 --------------------------------------------------------------------------------------
 
@@ -43,7 +41,7 @@ Usage: This file is used for node_exporter as service of Linux/Unix
 
 --------------------------------------------------------------------------------------
 
-#Installation Procedure:
+# Installation Procedure:
 
 --------------------------------------------------------------------------------------
 
