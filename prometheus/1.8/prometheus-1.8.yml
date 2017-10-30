@@ -30,4 +30,4 @@ scrape_configs:
     static_configs:
        - targets: ['localhost:9100']
          labels:
-         group: 'dev_node'
+         Node: 'dev_node'
