@@ -51,6 +51,6 @@ Follow the sequence of scripts execution as described below:
 
 Filename: prometheus-1.8.sh
 
-Usage: run ./prometheus-1.8.sh
+Usage: run command from /tmp folder  "./prometheus-1.8.sh"
 
 Note: Prometheus-1.8.sh script automatically install Prometheus-1.8 and node_exporter 0.15 and run as  Linux/Unix services 
