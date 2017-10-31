@@ -31,3 +31,6 @@ scrape_configs:
        - targets: ['localhost:9100']
          labels:
          Node: 'dev_node'
+       - targets: ['localhost:9100']
+         labels:
+         Node: 'prod_node'
