@@ -17,16 +17,16 @@ Note : Predefine  RSA private key “prometheuskey” and public key  “prometh
 ----------------------------------------------------------------------------------------
 These types of resources are supported:
 
-EC2 instance: t2 micro.
-VPC: Default.
+EC2 instance: t2 micro
+VPC: Default
 VPC cidr_block = "172.33.1.0/16”
-Gateway : default. 
-Subnet: default.
+Gateway : default
+Subnet: default
 Subnet cidr_block = "172.33.1.0/20"
-Security : open port : 22,80,9090,9100.
-Region :us-east-1 .
-AMI: ami-2757f631.
-OS: Amazon Linux .
+Security : open port : 22,80,9090,9100
+Region :us-east-1
+AMI: ami-2757f631
+OS: Amazon Linux 
 
 -----------------------------------------------------------------------------------------
 # Terraform module which creates  EC2 instance(t2 micro) on AWS and installed Prometheus version 1.8.
@@ -49,11 +49,13 @@ Copy all files along with  prometheus folder on your local system.
 
 Follow the sequence execution of command  as described below:
 # Usage
-terraform plan  
+terraform plan
+
 This command output show resource before actual create it. If no error  please run below command:
 
 # Usage
 terraform apply
+
 This command will create t2-mirco EC2 instance and installed Prometheus 1.8.
 
 For public ip of created instance run below command.
