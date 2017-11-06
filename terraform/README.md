@@ -39,17 +39,25 @@ AMI: ami-2757f631
 OS: Amazon Linux 
 
 -----------------------------------------------------------------------------------------
-# Terraform module which creates  EC2 instance(t2 micro) on AWS and installed Prometheus version 1.8.
+# Terraform "AWS Prometheu module".
 ---------------------------------------------------------------------------------------------
+
+ Terraform "AWS Prometheu module " which creates  EC2 instance(t2 micro) on AWS and installed Prometheus version 1.8
 
 For AWS instance  creation  and Prometheus installation , following files and  folder are used:
 
 Filename: main.tf: This  is main configure file for AWS resource creation.
+
 Filename: variables.tf: This file enclose  AWS  variable.  e.g.  AWS  secrete key, access key , region, AMI, RSA file name and location.
+
 Filename: vpc.tf: this file enclose network  resource information. 
+
 Filename: security.tf: this file enclose security rules and open port.
+
 Filename: prometheuskey: this is RSA private key, it is  used for connecting EC2 instances.
+
 Filename: prometheuskey.pub: this is RSA public key, it is used for login authentication to ec2 instance. 
+
 Folder: prometheus: this folder keep all configuration and installation file for prometheus 1.8 .
 
 ----------------------------------------------------------------------------------------------
