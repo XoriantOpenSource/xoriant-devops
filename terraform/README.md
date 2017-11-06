@@ -10,7 +10,8 @@
 3.  Access key and secrete key of AWS account.
 4.  public and private RSA keys for connecting AWS instance. 
 
-Note : Predefine  RSA private key “prometheuskey” and public key  “prometheuskey.pub” used in this  module,  user can changes in the files main.tf and variaables.tf file as per there key name.
+   Note : Predefine  RSA private key “prometheuskey” and public key  “prometheuskey.pub” used in this  module and 
+          user can changes in the  files main.tf and variaables.tf file as per there key name.
 
 ----------------------------------------------------------------------------------------
 # AWS resources are supported by this module.
@@ -18,14 +19,23 @@ Note : Predefine  RSA private key “prometheuskey” and public key  “prometh
 These types of resources are supported:
 
 EC2 instance: t2 micro
+
 VPC: Default
+
 VPC cidr_block = "172.33.1.0/16”
+
 Gateway : default
+
 Subnet: default
+
 Subnet cidr_block = "172.33.1.0/20"
+
 Security : open port : 22,80,9090,9100
+
 Region :us-east-1
+
 AMI: ami-2757f631
+
 OS: Amazon Linux 
 
 -----------------------------------------------------------------------------------------
@@ -58,9 +68,11 @@ terraform apply
 
 This command will create t2-mirco EC2 instance and installed Prometheus 1.8.
 
-For public ip of created instance run below command.
+
 # Usage
 terraform show |grep -i "public_ip"
+
+The above command will provide public ip of new  created  instance.
 
 Now access  prometheus   use url : http://public_ip:9090 .
 
