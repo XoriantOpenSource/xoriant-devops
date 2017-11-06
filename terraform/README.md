@@ -52,16 +52,16 @@ Follow the sequence execution of command  as described below:
 terraform plan  
 This command output show resource before actual create it. If no error  please run below command:
 
-#Usage
+# Usage
 terraform apply
 This command will create t2-mirco EC2 instance and installed Prometheus 1.8.
 
 For public ip of created instance run below command.
-#Usage
+# Usage
 terraform show |grep -i "public_ip"
 
 Now access  prometheus   use url : http://public_ip:9090 .
 
-#   License
+#  License
 
 Apache 2 Licensed. See LICENSE for full details.
