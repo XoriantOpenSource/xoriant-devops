@@ -1,4 +1,4 @@
-# AWS  EC2  Instance-prometheus module 
+# Terraform "AWS EC2 Instance-prometheus module" 
 
 # Author: Pankaj Yadav
 
@@ -10,7 +10,7 @@
 3.  Access key and secrete key of AWS account.
 4.  public and private RSA keys for connecting AWS instance. 
 
-Note : Predefine  RSA private key ìprometheuskeyî and public key  ìprometheuskey.pubî used in this  module,  user can changes in the files main.tf and variaables.tf file as per there key name.
+Note : Predefine  RSA private key ‚Äúprometheuskey‚Äù and public key  ‚Äúprometheuskey.pub‚Äù used in this  module,  user can changes in the files main.tf and variaables.tf file as per there key name.
 
 ----------------------------------------------------------------------------------------
 # AWS resources are supported by this module.
@@ -19,7 +19,7 @@ These types of resources are supported:
 
 EC2 instance: t2 micro.
 VPC: Default.
-VPC cidr_block = "172.33.1.0/16î
+VPC cidr_block = "172.33.1.0/16‚Äù
 Gateway : default. 
 Subnet: default.
 Subnet cidr_block = "172.33.1.0/20"
