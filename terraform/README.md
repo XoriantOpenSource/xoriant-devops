@@ -8,10 +8,12 @@
 1.  Terraform  should be installed.
 2.  An AWS account.
 3.  Access key and secrete key of AWS account.
-4.  public and private RSA keys for connecting AWS instance. 
+4.  Public and private RSA keys for connecting AWS instance.  Use below link for generating Public and private key 
+        https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/
+ 
 
-    Note : Predefine  RSA private key “prometheuskey” and public key  “prometheuskey.pub” used in this  module and 
-          user can changes in the  files main.tf and variaables.tf file as per there key name.
+  Note : Predefine  name of  RSA private key “prometheuskey” and public key  “prometheuskey.pub”   are used in the  module and 
+          user can changes  as per there key name in the files "main.tf and variables.tf". 
 
 ----------------------------------------------------------------------------------------
 # AWS resources are supported by this module.
@@ -53,10 +55,6 @@ OS: Amazon Linux
  Filename: vpc.tf: this file enclose network  resource information. 
 
  Filename: security.tf: this file enclose security rules and open port.
-
- Filename: prometheuskey: this is RSA private key, it is  used for connecting EC2 instances.
-
- Filename: prometheuskey.pub: this is RSA public key, it is used for login authentication to ec2 instance. 
 
  Folder: prometheus: this folder keep all configuration and installation file for prometheus 1.8 .
 
