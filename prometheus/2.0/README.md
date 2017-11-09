@@ -14,19 +14,19 @@ Filename: prometheus-2.0.yml,prometheus.service,node_exporter.service,prometheus
 
 Location: /tmp
 
-2 - Configure application in the following file:
+2 . Configure application in the following file:
 
 Filename:prometheus-2.0.yml
 
 Usage:  this file contain configuration of Prometheus 
 
-3 - Configure Prometheus as a daemon in following file:
+3 . Configure Prometheus as a daemon in following file:
 
 Filename: prometheus.service
 
 Usage: This file is used for Prometheus as service of Linux/Unix
 
-4 - Configure node_exporter as a daemon in following file:
+4 . Configure node_exporter as a daemon in following file:
 
 Filename: node_exporter.service
 
@@ -36,7 +36,7 @@ ________________________________________
 ________________________________________
 Follow the sequence of scripts execution as described below:
 
-1 - For package installation & service startup use this script.
+1 . For package installation & service startup use this script.
 
 Filename: prometheus-2.0.sh
 
