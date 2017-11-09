@@ -1,13 +1,13 @@
 #   Prometheus 2.0
 #   Author: Pankaj Yadav
-________________________________________
-________________________________________
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 This document describe how to install Prometheus version 2.0 on Ubuntu and Red Hat and Centos
 
 For this installation, following files are used:
-________________________________________
+-----------------------------------------
 #   Prerequisites: 
-________________________________________
+-----------------------------------------
 1 . Place the following 4 files  as below mentioned location on the server:
 
 Filename: prometheus-2.0.yml,prometheus.service,node_exporter.service,prometheus-2.0.sh
@@ -31,9 +31,9 @@ Usage: This file is used for Prometheus as service of Linux/Unix
 Filename: node_exporter.service
 
 Usage: This file is used for node_exporter as service of Linux/Unix
-________________________________________
+------------------------------------------
 #  Installation Procedure:
-________________________________________
+------------------------------------------
 Follow the sequence of scripts execution as described below:
 
 1 . For package installation & service startup use this script.
