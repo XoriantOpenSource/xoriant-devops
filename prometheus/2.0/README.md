@@ -1,13 +1,16 @@
-#   Prometheus 2.0
-#   Author: Pankaj Yadav
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
+#  Prometheus 2.0
+#  Author: Pankaj Yadav
+
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 This document describe how to install Prometheus version 2.0 on Ubuntu and Red Hat and Centos
 
 For this installation, following files are used:
------------------------------------------
-#   Prerequisites: 
------------------------------------------
+
+---------------------------------------------------------------
+#  Prerequisites: 
+---------------------------------------------------------------
+
 1 . Place the following 4 files  as below mentioned location on the server:
 
 Filename: prometheus-2.0.yml,prometheus.service,node_exporter.service,prometheus-2.0.sh
@@ -18,25 +21,27 @@ Location: /tmp
 
 Filename:prometheus-2.0.yml
 
-Usage:  this file contain configuration of Prometheus 
+Usage:  this file contain configuration of Prometheus.
 
-3 . Configure Prometheus as a daemon in following file:
+3 .  Configure Prometheus as a daemon in following file:
 
 Filename: prometheus.service
 
 Usage: This file is used for Prometheus as service of Linux/Unix
 
-4 . Configure node_exporter as a daemon in following file:
+4 - Configure node_exporter as a daemon in following file:
 
 Filename: node_exporter.service
 
 Usage: This file is used for node_exporter as service of Linux/Unix
-------------------------------------------
-#  Installation Procedure:
-------------------------------------------
+
+-----------------------------------------------------------------
+# Installation Procedure:
+----------------------------------------------------------------
+
 Follow the sequence of scripts execution as described below:
 
-1 . For package installation & service startup use this script.
+1 - For package installation & service startup use this script.
 
 Filename: prometheus-2.0.sh
 
