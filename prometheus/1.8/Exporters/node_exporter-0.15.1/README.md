@@ -15,7 +15,7 @@ For this installation, following files are used:
 
 --------------------------------------------------------------------------------------
 
-1.  Place the following 3 files  on  below mentioned location on the server:
+1.  Place the following 2 files  on  below mentioned location on the server:
 
      Filename: node_exporter.service, node_exporter-0.15.1.sh.
 
